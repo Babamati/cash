@@ -159,9 +159,6 @@ try:
     with st.expander("Forecast Output Table"):
         st.dataframe(forecast_df, use_container_width=True)
 
-    with st.expander("Test Prediction Table"):
-        st.dataframe(test_results_df, use_container_width=True)
-
     with st.expander("Feature Importance Table"):
         st.dataframe(importance_df, use_container_width=True)
 
